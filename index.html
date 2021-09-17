@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper n Scissor</title>
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO ROCK, PAPER n SCISSOR GAME!!!</h1>
+    </header>
+
+    <p id="action-message">Make your move.</p>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="Fist.png" class="filter-white"><br>
+        </div>
+        <div class="choice" id="p">
+            <img src="Wave.png" class="filter-white">
+        </div>
+        <div class="choice" id="s">
+            <img src="Scissors.png" class="filter-white">
+        </div>
+    </div>
+
+    <div class="result">
+        <p>Let the Game begin...</p>
+    </div>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">USER</div>
+        <div id="comp-label" class="badge">COMP</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <div class="auth-msg">
+        <p id="author-msg">✨ Made by SASWAT ✨</p>
+    </div>
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
