@@ -29,6 +29,15 @@ header {
 
 @media (max-width:400px){
 
+    html {
+    
+        height: 100%;
+        background-image: url(portfolio.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
     .choice img{
         height: 50px;
         width: 50px;
