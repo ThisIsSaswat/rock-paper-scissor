@@ -1,4 +1,4 @@
-let userScore = 0;
+let userScore = 1;
 let compScore = 0;
 const userScore_span = document.getElementById("user-score");
 const compScore_span = document.getElementById("comp-score");
